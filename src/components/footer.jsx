@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from '../assets/logo.png'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
   <div
     class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
     <div class="me-12 hidden lg:block">
-      <span>Get connected with us on social networks:</span>
+      <span>Siguenos en nuestras redes:</span>
     </div>
     <div class="flex justify-center">
       <a href="#!" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
@@ -75,29 +76,18 @@ const Footer = () => {
   <div class="mx-6 py-10 text-center md:text-left">
     <div class="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
       <div class="">
-        <h6
-          class="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
           <span class="me-3 [&>svg]:h-4 [&>svg]:w-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor">
-              <path
-                d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-            </svg>
+            <img src={logo} alt="" className='h-24 md:mx-0 mx-auto lg:mx-0' />
           </span>
-          TW Elements
-        </h6>
         <p>
           Here you can use rows and columns to organize your footer
-          content. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit.
+          content. 
         </p>
       </div>
       <div>
         <h6
           class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-          Products
+          Productos
         </h6>
         <p class="mb-4">
           <a href="#!">Angular</a>
@@ -115,25 +105,25 @@ const Footer = () => {
       <div>
         <h6
           class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-          Useful links
+          Sucursales
         </h6>
         <p class="mb-4">
-          <a href="#!">Pricing</a>
+          <a href="#!">Monteros</a>
         </p>
         <p class="mb-4">
-          <a href="#!">Settings</a>
+          <a href="#!">Concepción</a>
         </p>
         <p class="mb-4">
-          <a href="#!">Orders</a>
+          <a href="#!">Rio Seco</a>
         </p>
         <p>
-          <a href="#!">Help</a>
+          <a href="#!">Aguilares</a>
         </p>
       </div>
       <div>
         <h6
           class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-          Contact
+          Contacto
         </h6>
         <p class="mb-4 flex items-center justify-center md:justify-start">
           <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
@@ -147,7 +137,7 @@ const Footer = () => {
                 d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
             </svg>
           </span>
-          New York, NY 10012, US
+          Monteros, Tucumán
         </p>
         <p class="mb-4 flex items-center justify-center md:justify-start">
           <span class="me-3 [&>svg]:h-5 [&>svg]:w-5">
