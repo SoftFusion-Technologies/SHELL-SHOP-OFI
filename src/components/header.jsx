@@ -15,9 +15,7 @@ const Header = () => {
           </h1>
           <div className='flex justify-center items-center'>
             <p className='pt-5 w-[290px] sm:w-[450px] sm:text-xl'>
-              Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Ea ab iure fuga nisi in, quam illo dele
-              elit. Ea ab iure fuga nisi in, quam illo dele
+            Descubre la combinación perfecta de café, comodidad y servicio en Shell Shop
             </p>
           </div>
           <div className='flex justify-center flex-col  gap-4 pt-5 text-white sm:flex-row'>
