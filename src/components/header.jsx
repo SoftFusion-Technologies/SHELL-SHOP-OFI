@@ -27,6 +27,11 @@ const Header = () => {
               PRODUCTOS
             </button>
           </div>
+          <div className="flex justify-center items-center">
+           <button className="bg-yellow px-10 py-2 rounded-lg  font-bignoodle sm:text-2xl mt-5 ">
+              DELIVERY
+            </button>            
+          </div>            
         </div>
       </div>
     </div>
