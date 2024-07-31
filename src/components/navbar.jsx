@@ -4,7 +4,7 @@ import menu from '../assets/menu.png';
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full bg-opacity-70 backdrop-blur-md bg-black-400 border-b-2 border-gray-200 px-2 sm:px-4 lg:px-20 py-3">
+    <nav className="fixed top-0 w-full bg-opacity-70 backdrop-blur-md bg-black-400 border-b border-shellgrayDark px-2 sm:px-4 lg:px-20 py-3">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex items-center">
           <img src={logo} className="h-6 sm:h-9" alt="Logo" />
