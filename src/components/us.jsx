@@ -3,7 +3,7 @@ import bg from '../assets/bg.jpg'
 
 const Us = () => {
   return (
-    <div className='h-auto py-10 bg-gray-100'>
+    <div className='h-auto py-10 bg-gray-dark'>
       <div className='flex justify-center items-center gap-5 flex-col p-5'>
         <h1 className='text-center text-4xl font-bold'>Quiénes somos</h1>
         <p className='text-center w-[1000px]'>
@@ -15,12 +15,11 @@ const Us = () => {
           <br /><br />
           <strong>¡Te invitamos a conocernos y a disfrutar de una experiencia inigualable en cada taza!</strong>
         </p>
-        <img src={bg} alt="Imagen representativa" className='rounded w-[600px]' />
-        <button className='bg-yellow px-10 py-3 rounded'>Más información</button>
+        {/* <img src={bg} alt="Imagen representativa" className='rounded w-[600px]' /> */}
+        <button className='bg-yellow px-10 py-3 rounded text-gray-900'>Más información</button>
       </div>
     </div>
   )
 }
 
-export default Us
-
+export default Us;
