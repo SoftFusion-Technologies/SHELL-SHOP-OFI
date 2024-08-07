@@ -6,6 +6,8 @@ import Contact from './pages/Contact';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 import NotFound from './pages/NotFound';
+import WhatsappBut from './components/WhatsappBut';
+import Mapas from './components/Mapas';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path='/*' element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>
+      <Mapas/>
+      <WhatsappBut/>
       <Footer />
     </div>
   );

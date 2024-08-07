@@ -1,5 +1,13 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { FaArrowUp } from 'react-icons/fa';
+
+  const scrollToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+      });
+  };
 
 const Footer = () => {
   return (
@@ -192,7 +200,15 @@ const Footer = () => {
       >TW Elements</a
     >
   </div>
+  {/* Botón de flecha hacia arriba */}
+            <button
+                className="fixed bottom-10 right-10 bg-black text-white p-2 rounded-full shadow-md hover:shadow-lg transition duration-300"
+                onClick={scrollToTop}
+            >
+                <FaArrowUp className="text-xl" />
+            </button>
 </footer>
+
   )
 }
 
