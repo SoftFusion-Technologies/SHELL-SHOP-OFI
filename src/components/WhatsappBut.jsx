@@ -4,7 +4,7 @@ function WhatsappBut() {
     return (
       <div className="fixed bottom-20 right-5 z-50 animate-bounce">
         <a
-          href="#"
+          // href="#"
           target="_blank"
           rel="noopener noreferrer"
         >

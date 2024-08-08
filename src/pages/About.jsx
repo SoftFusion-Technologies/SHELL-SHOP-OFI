@@ -34,7 +34,7 @@ const About = () => {
         </p>
       </section>
       <section className="about-cta">
-        <button className="cta-button" href="">
+        <button className="cta-button">
           ¡Visítanos Hoy!
         </button>
       </section>
