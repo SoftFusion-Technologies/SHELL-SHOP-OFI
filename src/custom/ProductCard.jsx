@@ -1,18 +1,13 @@
-import React from 'react'
-import cafe from '../assets/cafe.jpg'
+import React from 'react';
 
-const ProductCard = () => {
+const ProductCard = ({ image }) => {
   return (
-    <div
-  class="block max-w-[18rem] rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
-  <div class="relative overflow-hidden bg-cover bg-no-repeat">
-    <img
-      class="rounded-t-lg"
-      src={cafe}
-      alt="" />
-  </div>
-</div>
-  )
-}
+    <div className="block max-w-[18rem] rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
+      <div className="relative overflow-hidden bg-cover bg-no-repeat">
+        <img className="rounded-t-lg" src={image} alt="Product" />
+      </div>
+    </div>
+  );
+};
 
-export default ProductCard
+export default ProductCard;

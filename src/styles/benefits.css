@@ -1,0 +1,11 @@
+.img-hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-zoom:hover {
+  transform: scale(1.1);
+}
+
+.back-ground-bo{
+  background-image: linear-gradient(60deg, #4a8582 0%, #129a93 100%);
+}

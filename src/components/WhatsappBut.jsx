@@ -10,12 +10,7 @@ function WhatsappBut() {
         >
           <img src={whatsappIcon} alt="WhatsApp" className="w-16 h-16" />
         </a>
-
-
-
       </div>
-
-
     );
   }
   

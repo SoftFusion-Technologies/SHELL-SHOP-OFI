@@ -8,11 +8,11 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <Benefits />
       <Us />
+      <Benefits />
       <Products />
     </div>
-  )
+  );
 }
 
 export default Home
